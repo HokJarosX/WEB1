@@ -1,0 +1,71 @@
+
+#page-title {
+    text-align: center;
+    color: #1a3c6e;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1a3c6e;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e8eef7;
+}
+
+.highlight-row {
+    background-color: #ffe9a8;
+}
+
+
+#feedback-form {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.field {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.radio-group {
+    margin-bottom: 15px;
+}
+
+.radio-group label {
+    display: inline;
+    margin-right: 15px;
+}
+
+button {
+    background-color: #1a3c6e;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #d93025;
+}

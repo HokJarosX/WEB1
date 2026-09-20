@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 4</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+    <div>
+    <a href="index.html">Task 1</a> |
+    <a href="task2.html">Task 2</a> |
+    <a href="task3.html">Task 3</a> |
+    <a href="task4.html">Task 4</a>
+</div>
+    <h1 id="page-title">Student Grades</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="4">Subjects</th>
+            </tr>
+            <tr>
+                <th>WEB</th>
+                <th>DAA</th>
+                <th>SDP</th>
+                <th>OS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="highlight-row">
+                <td>Yaroslav</td>
+                <td>90</td>
+                <td>85</td>
+                <td>88</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <td>Daniyal</td>
+                <td>80</td>
+                <td>78</td>
+                <td>85</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Duman</td>
+                <td>75</td>
+                <td>88</td>
+                <td>82</td>
+                <td>79</td>
+            </tr>
+            <tr>
+                <td>Zhibek</td>
+                <td>95</td>
+                <td>91</td>
+                <td>89</td>
+                <td>94</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="feedback-form">
+        <label for="name">Name</label>
+        <input class="field" type="text" id="name" name="name">
+
+        <label for="email">Email</label>
+        <input class="field" type="email" id="email" name="email">
+
+        <label for="role">Role</label>
+        <select class="field" id="role" name="role">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label>Was this page helpful?</label>
+        <div class="radio-group">
+            <input type="radio" id="yes" name="helpful" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="helpful" value="no">
+            <label for="no">No</label>
+        </div>
+
+        <label for="comments">Comments</label>
+        <textarea class="field" id="comments" name="comments" rows="5"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
